@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    height: 100vh; 
+  }
+  .division {
+    height: 100%;
+  }
+  .division1,.division5{
+    width: 15%; 
+    background-color: white;
+  }
+  .division2{
+    width: 15%;
+    background-color: #f4f4f4;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  .division3 {
+    width: 45%; 
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px; 
+   
+  }
+  .division4{
+    width: 10%; 
+    background-color: #f4f4f4;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  #langlinks{
+      align-items: center;
+      margin: 5px;
+      margin-top: 20px;
+  }
+
+  .ban {
+      text-align: center;
+      font-weight: bold;
+      padding: 2px 5px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      background-color: #ddd;
+  }
+
+  h3 a{
+      text-decoration: none;
+  }
+
+  ul a{
+      text-decoration: none;
+      color: blue;
+  }
+
+  .col{
+      width: 48%;
+  }
+
+  .division3 ul{
+      list-style-type: none;
+  }
+
+
+  footer {
+      border-color: #ccc;
+      border-style: solid;
+      border-width: 1px 0 0 0;
+      font-size: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      left:0;
+      right: 0;
+      position: absolute;
+      text-align: center;
+  }
+
+  .subject-list {
+      list-style: none;
+      padding: 0; 
+      margin: 0; 
+  }
+
+  .subject-list li {
+      border-bottom: 1px solid #ccc; 
+  }
+
+  .subject-list li:last-child {
+      border-bottom: none;
+  }
+
+  .subject-list a {
+      text-decoration: none;
+      color: blue;
+      font-size: 16px;
+  }
+
+  .subject-list a:hover {
+      color: #007BFF; 
+  }
+
+
+  .clfooter {
+      display: flex; 
+      flex-wrap: nowrap;
+      list-style: none;
+      padding: 0; 
+      margin: 0; 
+      font-size: 15px;
+  }
+
+  .clfooter li {
+      margin-right: 15px; 
+  }
+
+  .clfooter li:last-child {
+      margin-right: 0; 
+  }
+  footer {
+      margin-top: 60px;
+      padding: 10px 20px;
+      background-color: #f8f9fa;
+  }
+  .cal{
+    margin-left: 15px;
+  }
+  #calban{
+    margin-left: 15px;
+  }
+  .om{
+    color: #0000EE;
+  }
